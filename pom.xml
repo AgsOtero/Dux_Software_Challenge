@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>AgsOtero</groupId>
-    <artifactId>DUX_SOFTAWARE_PRUEBA_TECNICA</artifactId>
+    <artifactId>Dux_Software_Prueba_Tecnica</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>DUX_SOFTAWARE_PRUEBA_TECNICA</name>
     <description>DUX_SOFTAWARE_PRUEBA_TECNICA</description>
