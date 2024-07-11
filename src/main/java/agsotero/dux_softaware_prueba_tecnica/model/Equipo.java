@@ -1,9 +1,9 @@
 package agsotero.dux_softaware_prueba_tecnica.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
+import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -11,15 +11,26 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@Builder
 @Entity
+@Table(name = "equipo")
 public class Equipo {
-
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
+
+    @NotBlank(message = "El nombre no debe estar en blanco")
+    @Column(name = "nombre")
     private String nombre;
+
+    @NotBlank(message = "La liga no debe estar en blanco")
+    @Column(name = "liga")
     private String liga;
+
+    @NotBlank(message = "El país no debe estar en blanco")
+    @Column(name = "pais")
     private String pais;
 
+    // Getters y setters
 }
