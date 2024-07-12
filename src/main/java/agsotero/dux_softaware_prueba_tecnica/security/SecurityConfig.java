@@ -23,11 +23,9 @@ public class SecurityConfig {
 
     private static final String[] SWAGGER_PATHS = {"/swagger-ui.html/**", "/v3/api-docs/**", "/swagger-ui/**", "/webjars/swagger-ui/**"};
 
-    private final JwtTokenUtil jwtTokenUtil;
     private final JwtRequestFilter jwtRequestFilter;
 
-    public SecurityConfig(JwtTokenUtil jwtTokenUtil, JwtRequestFilter jwtRequestFilter) {
-        this.jwtTokenUtil = jwtTokenUtil;
+    public SecurityConfig(JwtRequestFilter jwtRequestFilter) {
         this.jwtRequestFilter = jwtRequestFilter;
     }
 
