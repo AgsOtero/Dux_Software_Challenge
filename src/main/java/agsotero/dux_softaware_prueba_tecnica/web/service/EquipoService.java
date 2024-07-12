@@ -1,6 +1,6 @@
-package agsotero.dux_softaware_prueba_tecnica.service;
+package agsotero.dux_softaware_prueba_tecnica.web.service;
 
-import agsotero.dux_softaware_prueba_tecnica.model.Equipo;
+import agsotero.dux_softaware_prueba_tecnica.web.model.Equipo;
 
 import java.util.List;
 

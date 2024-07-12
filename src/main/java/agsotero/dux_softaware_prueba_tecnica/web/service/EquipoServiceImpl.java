@@ -1,8 +1,8 @@
-package agsotero.dux_softaware_prueba_tecnica.service;
+package agsotero.dux_softaware_prueba_tecnica.web.service;
 
 import agsotero.dux_softaware_prueba_tecnica.exception.EquipoNotFoundException;
-import agsotero.dux_softaware_prueba_tecnica.model.Equipo;
-import agsotero.dux_softaware_prueba_tecnica.repository.EquipoRepository;
+import agsotero.dux_softaware_prueba_tecnica.web.model.Equipo;
+import agsotero.dux_softaware_prueba_tecnica.web.repository.EquipoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

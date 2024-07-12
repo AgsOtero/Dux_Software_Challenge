@@ -1,6 +1,6 @@
-package agsotero.dux_softaware_prueba_tecnica.repository;
+package agsotero.dux_softaware_prueba_tecnica.web.repository;
 
-import agsotero.dux_softaware_prueba_tecnica.model.Equipo;
+import agsotero.dux_softaware_prueba_tecnica.web.model.Equipo;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

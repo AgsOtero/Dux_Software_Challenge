@@ -1,8 +1,8 @@
-package agsotero.dux_softaware_prueba_tecnica.controler;
+package agsotero.dux_softaware_prueba_tecnica.web.controller;
 
 import agsotero.dux_softaware_prueba_tecnica.exception.EquipoNotFoundException;
-import agsotero.dux_softaware_prueba_tecnica.model.Equipo;
-import agsotero.dux_softaware_prueba_tecnica.service.EquipoService;
+import agsotero.dux_softaware_prueba_tecnica.web.model.Equipo;
+import agsotero.dux_softaware_prueba_tecnica.web.service.EquipoService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.media.Content;

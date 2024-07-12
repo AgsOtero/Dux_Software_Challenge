@@ -1,7 +1,7 @@
 package agsotero.dux_softaware_prueba_tecnica.controler;
 
-import agsotero.dux_softaware_prueba_tecnica.model.Equipo;
-import agsotero.dux_softaware_prueba_tecnica.repository.EquipoRepository;
+import agsotero.dux_softaware_prueba_tecnica.web.model.Equipo;
+import agsotero.dux_softaware_prueba_tecnica.web.repository.EquipoRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

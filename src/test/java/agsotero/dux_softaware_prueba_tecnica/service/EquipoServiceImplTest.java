@@ -1,8 +1,9 @@
 package agsotero.dux_softaware_prueba_tecnica.service;
 
 import agsotero.dux_softaware_prueba_tecnica.exception.EquipoNotFoundException;
-import agsotero.dux_softaware_prueba_tecnica.model.Equipo;
-import agsotero.dux_softaware_prueba_tecnica.repository.EquipoRepository;
+import agsotero.dux_softaware_prueba_tecnica.web.model.Equipo;
+import agsotero.dux_softaware_prueba_tecnica.web.repository.EquipoRepository;
+import agsotero.dux_softaware_prueba_tecnica.web.service.EquipoServiceImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

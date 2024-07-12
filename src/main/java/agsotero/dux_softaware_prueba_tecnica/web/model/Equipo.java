@@ -1,4 +1,4 @@
-package agsotero.dux_softaware_prueba_tecnica.model;
+package agsotero.dux_softaware_prueba_tecnica.web.model;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;

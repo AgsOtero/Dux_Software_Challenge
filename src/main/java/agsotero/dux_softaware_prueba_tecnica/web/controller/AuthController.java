@@ -1,4 +1,4 @@
-package agsotero.dux_softaware_prueba_tecnica.controler;
+package agsotero.dux_softaware_prueba_tecnica.web.controller;
 
 import agsotero.dux_softaware_prueba_tecnica.security.JwtTokenUtil;
 import org.springframework.beans.factory.annotation.Autowired;
